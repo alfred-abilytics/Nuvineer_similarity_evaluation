@@ -79,8 +79,8 @@ async function getDescription(metadata1: any, metadata2: any) {
 async function main() {
 
     const dbConfigs = {
-        prod: 'postgresql://postgres.cgazggujpeddtkopaqco:30YbdTebymhFlXeG@aws-0-us-west-1.pooler.supabase.com:5432/postgres',
-        dev: 'postgresql://nuvineer_admin:+d1oL-YL>jX:UU(m@localhost:1234/nuvineer_dev',
+        prod: '',
+        dev: '',
     }
     const { db: prodDb, closeConnection: closeProdConnection } = await connectToProdDatabase(dbConfigs.prod);
     const { db: devDb, closeConnection: closeDevConnection } = await connectToDevDatabase(dbConfigs.dev);

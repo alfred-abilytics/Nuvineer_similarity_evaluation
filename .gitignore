@@ -1,0 +1,5 @@
+/node_modules
+.env
+comparison.md
+.DS_Store
+.cursorrules
